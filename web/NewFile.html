@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+        <form method="GET" action="MyServlet">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="firstName"></td>
+                </tr>
+                <tr>
+                    <td>SurName</td>
+                    <td><input type="text" name="secondName"></td>
+                </tr>
+                <tr>
+                    <td>Profession</td>
+                    <td>
+                        <select name="job" multiple size="4">
+                            <option value="Developer">Developer</option>
+                            <option selected value="Tester">Qa</option>
+                            <option value="Analyst">Analystics</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pol:</td>
+                    <td>
+                        <input type="radio" name="gender" value="F">Famele</input><br>
+                        <input type="radio" name="gender" value="M">Male</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Old 18 years?</td>
+                    <td>
+                        <input type="checkbox" name="age18" value="YES">Da</input><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" colspan="2"><input type="submit" value="Send"></td>
+                </tr>
+
+            </table>
+        </form>
+</body>
+</html>
